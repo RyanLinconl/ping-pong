@@ -1,8 +1,14 @@
+:root {
+  --cor-do-fundo: #201e1e;
+}
+
 html, body {
   margin: 0;
   padding: 0;
+  background-color:var(--cor-do-fundo);
 }
 
 canvas {
   display: block;
+  margin: 15rem auto;
 }

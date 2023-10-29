@@ -10,7 +10,7 @@ let yRaquete2 = 150;
 let velocidadeYraquete2;
 
 //Chance de Errar//
-let chanceDeErrar = 0;
+let chanceDeErrar = 1;
 
 function mostraRaquete(x,y){
     rect(x, y, largRaquete, altRaquete);
@@ -18,10 +18,18 @@ function mostraRaquete(x,y){
     
     function movimentaRaquete(){
       if (keyIsDown (UP_ARROW)){
-        yRaquete -= 10;
+        yRaquete -= 10; 
       }
       if (keyIsDown (DOWN_ARROW)){
         yRaquete += 10;
+      }
+
+      // Colisao com a borda //
+      if (yRaquete < 0) {
+        yRaquete = 0
+      }
+      if (yRaquete + largRaquete > height - 90) {
+        yRaquete = height - altRaquete
       }
     }
     

@@ -31,8 +31,12 @@ function mostraBolinha(){
   }
   
   
-function bolinhaNaoFicaPresa(){
-  if (xBolinha - raio < 0){
-  xBolinha = 25
+function bolinhaNaoFicaPresa() {
+  if (xBolinha - raio <= 0) {
+    xBolinha = 40
+  } else {
+    if (xBolinha - raio >= 594) {
+      xBolinha = width - 40
+    }
   }
 }

@@ -21,7 +21,7 @@ function incluiPlacar(){
       meusPontos += 1;
       ponto.play(0, 1, 0.5);
     }
-    if (xBolinha < 10){
+    if (xBolinha < 12){
       pontosOponente += 1;
       ponto.play(0, 1, 0.5);
     }
