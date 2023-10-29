@@ -6,7 +6,7 @@ Nesse jogo seu objetivo é rebater a bolinha e não deixar o oponente fazer pont
 
 # Sobre o projeto
 
-https://atravessando-a-rua.vercel.app
+https://ping-pong-two-theta.vercel.app
 
 O 'Ping Pong' representa um jogo web front-end cujo desenvolvimento foi inspirado e fundamentado nos ensinamentos dos cursos oferecidos pela plataforma [Alura](https://www.alura.com.br "Site da Alura").
 
