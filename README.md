@@ -1,5 +1,4 @@
 # ping-pong
-
 Nesse jogo seu objetivo é rebater a bolinha e não deixar o oponente fazer pontos!
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/RyanLinconl/ping-pong/blob/main/LICENSE) 
